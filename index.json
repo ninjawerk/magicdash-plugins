@@ -171,9 +171,9 @@
       "description": "Next buses, trams and trains from any stop worldwide with real-time delays, via Transitous. No key.",
       "author": "ninjawerk",
       "repo": "ninjawerk/magicdash-transit",
-      "version": "1.0.1",
-      "download": "https://github.com/ninjawerk/magicdash-transit/releases/download/v1.0.1/transit-1.0.1.zip",
-      "sha256": "1baf5206698467863051a8dd1c16458755e4c494907d561a027e1e875169ab52",
+      "version": "1.0.2",
+      "download": "https://github.com/ninjawerk/magicdash-transit/releases/download/v1.0.2/transit-1.0.2.zip",
+      "sha256": "3ca645b6c9b27e372f1df22a109c5ea7d90fd4012735dc6fc8f57eaadbe010b4",
       "sdkVersion": 1,
       "minHost": "0.2.0",
       "tags": [
