@@ -2,6 +2,47 @@
   "name": "MagicDash community plugins",
   "plugins": [
     {
+      "id": "air-quality",
+      "name": "Air quality & pollen",
+      "description": "Air quality index, PM2.5/PM10, ozone, NO₂ and pollen for your dashboard location, with a 24 h trend. Open-Meteo, no key.",
+      "author": "ninjawerk",
+      "repo": "ninjawerk/magicdash-air-quality",
+      "version": "1.0.0",
+      "download": "https://github.com/ninjawerk/magicdash-air-quality/releases/download/v1.0.0/air-quality-1.0.0.zip",
+      "sha256": "416de0c1b927a9bc4d43c88c3181c94185a1f4ad281333202f5a3d6f3b6bc2b3",
+      "sdkVersion": 1,
+      "minHost": "0.2.0",
+      "tags": [
+        "weather",
+        "air",
+        "pollen",
+        "health"
+      ],
+      "reviewed": true,
+      "addedAt": "2026-09-16",
+      "updatedAt": "2026-09-16"
+    },
+    {
+      "id": "calendar-grid",
+      "name": "Calendar week & month",
+      "description": "Week strip, rolling 7 days or a month grid of your events, built on the bundled Schedule plugin (Google / ICS) — nothing extra to set up.",
+      "author": "ninjawerk",
+      "repo": "ninjawerk/magicdash-calendar-grid",
+      "version": "1.0.0",
+      "download": "https://github.com/ninjawerk/magicdash-calendar-grid/releases/download/v1.0.0/calendar-grid-1.0.0.zip",
+      "sha256": "4cbc7da7a056b79553ad1b512383880f7628803ea6b355345d9c948cf0d9a8e3",
+      "sdkVersion": 1,
+      "minHost": "0.2.0",
+      "tags": [
+        "calendar",
+        "week",
+        "month"
+      ],
+      "reviewed": true,
+      "addedAt": "2026-09-16",
+      "updatedAt": "2026-09-16"
+    },
+    {
       "id": "countdown",
       "name": "Countdown",
       "description": "Days, hours and minutes until a date, with a date-time picker and repeat rules (yearly for birthdays). Red in the final hour, pulls its screen forward in the last minute.",
@@ -16,6 +57,130 @@
         "time",
         "countdown",
         "tutorial"
+      ],
+      "reviewed": true,
+      "addedAt": "2026-09-16",
+      "updatedAt": "2026-09-16"
+    },
+    {
+      "id": "ha-cards",
+      "name": "Home Assistant cards",
+      "description": "Camera view, thermostat with controls, media player with album art, and sensor history sparklines — on top of the bundled Home Assistant plugin.",
+      "author": "ninjawerk",
+      "repo": "ninjawerk/magicdash-ha-cards",
+      "version": "1.0.0",
+      "download": "https://github.com/ninjawerk/magicdash-ha-cards/releases/download/v1.0.0/ha-cards-1.0.0.zip",
+      "sha256": "768010f8941ec2c3e516eb8130223848e589be13684990b64025cfd17261b2f1",
+      "sdkVersion": 1,
+      "minHost": "0.2.0",
+      "tags": [
+        "home-assistant",
+        "camera",
+        "climate",
+        "media",
+        "energy"
+      ],
+      "reviewed": true,
+      "addedAt": "2026-09-16",
+      "updatedAt": "2026-09-16"
+    },
+    {
+      "id": "message-board",
+      "name": "Message board",
+      "description": "A shared household note. Post from the admin panel, your phone or an automation; latest, list or rotating layouts.",
+      "author": "ninjawerk",
+      "repo": "ninjawerk/magicdash-message-board",
+      "version": "1.0.0",
+      "download": "https://github.com/ninjawerk/magicdash-message-board/releases/download/v1.0.0/message-board-1.0.0.zip",
+      "sha256": "b2a7c71afc71bfbe43fec607e7570157e3b1ff8749068ad2bfebcaa2a052f080",
+      "sdkVersion": 1,
+      "minHost": "0.2.0",
+      "tags": [
+        "home",
+        "notes",
+        "family"
+      ],
+      "reviewed": true,
+      "addedAt": "2026-09-16",
+      "updatedAt": "2026-09-16"
+    },
+    {
+      "id": "photo-album",
+      "name": "Photo album",
+      "description": "Your own photos as a slideshow from an Immich album or a Nextcloud / WebDAV folder, with date captions.",
+      "author": "ninjawerk",
+      "repo": "ninjawerk/magicdash-photo-album",
+      "version": "1.0.0",
+      "download": "https://github.com/ninjawerk/magicdash-photo-album/releases/download/v1.0.0/photo-album-1.0.0.zip",
+      "sha256": "79c24f1f3a909a277ef0b418bccbda54f4b5932af9af5b56573786fb81f38fc6",
+      "sdkVersion": 1,
+      "minHost": "0.2.0",
+      "tags": [
+        "photos",
+        "immich",
+        "nextcloud",
+        "family"
+      ],
+      "reviewed": true,
+      "addedAt": "2026-09-16",
+      "updatedAt": "2026-09-16"
+    },
+    {
+      "id": "tasks",
+      "name": "Tasks",
+      "description": "Today’s to-dos from Todoist, Google Tasks or a Home Assistant to-do list. Tap to complete.",
+      "author": "ninjawerk",
+      "repo": "ninjawerk/magicdash-tasks",
+      "version": "1.0.0",
+      "download": "https://github.com/ninjawerk/magicdash-tasks/releases/download/v1.0.0/tasks-1.0.0.zip",
+      "sha256": "09aca0773bfac57bfde736d5190d91ea3108b4bde7dd2b018adb60fcd47155cd",
+      "sdkVersion": 1,
+      "minHost": "0.2.0",
+      "tags": [
+        "tasks",
+        "todo",
+        "productivity"
+      ],
+      "reviewed": true,
+      "addedAt": "2026-09-16",
+      "updatedAt": "2026-09-16"
+    },
+    {
+      "id": "timers",
+      "name": "Timers",
+      "description": "Tap-to-start kitchen and focus timers with presets. Finishes with a toast, a red tile, a beep and pulls the screen forward. Shared across displays.",
+      "author": "ninjawerk",
+      "repo": "ninjawerk/magicdash-timers",
+      "version": "1.0.0",
+      "download": "https://github.com/ninjawerk/magicdash-timers/releases/download/v1.0.0/timers-1.0.0.zip",
+      "sha256": "913fb415615c16b5161ed33ba6b002bfd71dac0252225585acea2f306fab7724",
+      "sdkVersion": 1,
+      "minHost": "0.2.0",
+      "tags": [
+        "time",
+        "kitchen",
+        "focus"
+      ],
+      "reviewed": true,
+      "addedAt": "2026-09-16",
+      "updatedAt": "2026-09-16"
+    },
+    {
+      "id": "transit",
+      "name": "Transit departures",
+      "description": "Next buses, trams and trains from any stop worldwide with real-time delays, via Transitous. No key.",
+      "author": "ninjawerk",
+      "repo": "ninjawerk/magicdash-transit",
+      "version": "1.0.0",
+      "download": "https://github.com/ninjawerk/magicdash-transit/releases/download/v1.0.0/transit-1.0.0.zip",
+      "sha256": "1dd374319c2d59bcdb5164a5e09f70803e15dc37f2444ddcc6c9a14877b8c369",
+      "sdkVersion": 1,
+      "minHost": "0.2.0",
+      "tags": [
+        "transit",
+        "bus",
+        "train",
+        "commute"
       ],
       "reviewed": true,
       "addedAt": "2026-09-16",
