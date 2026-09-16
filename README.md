@@ -40,6 +40,11 @@ repo only lists them.
 
 3. CI validates the schema, downloads the zip, checks the SHA and the manifest. Fix anything it flags.
 
+**Take the `sha256` from the release itself** — the `<id>-<version>.zip.sha256` asset your workflow publishes, or
+`sha256sum` on the asset you downloaded from the release page. Never upload a zip by hand to a release that a workflow
+also publishes to: the workflow overwrites it and the checksum changes. If an asset is ever replaced, the entry must be
+updated; a daily CI run re-verifies every entry and fails when an asset no longer matches.
+
 Rules:
 - **Ids are first come, first served** and must be kebab-case. Ids of bundled MagicDash plugins are reserved
   (see `RESERVED` in `validate.mjs`).
