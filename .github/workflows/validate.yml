@@ -3,6 +3,9 @@ on:
   push:
     branches: [main]
   pull_request:
+  schedule:
+    - cron: '17 4 * * *'   # daily: catch release assets that changed after they were pinned
+  workflow_dispatch:
 jobs:
   validate:
     runs-on: ubuntu-latest

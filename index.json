@@ -9,10 +9,14 @@
       "repo": "ninjawerk/magicdash-countdown",
       "version": "1.0.0",
       "download": "https://github.com/ninjawerk/magicdash-countdown/releases/download/v1.0.0/countdown-1.0.0.zip",
-      "sha256": "08b686107a2b3c5ddd5d2d9321420b7150dead8e15f24c3b9415fb2ffb2372f9",
+      "sha256": "2d612107cc649b54b4f37623bb7eaf0f9501388e1b31971e6918f80ced54c66b",
       "sdkVersion": 1,
       "minHost": "0.1.0",
-      "tags": ["time", "countdown", "tutorial"],
+      "tags": [
+        "time",
+        "countdown",
+        "tutorial"
+      ],
       "reviewed": true,
       "addedAt": "2026-09-16",
       "updatedAt": "2026-09-16"
