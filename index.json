@@ -185,6 +185,29 @@
       "reviewed": true,
       "addedAt": "2026-09-16",
       "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "web-app",
+      "name": "Web app",
+      "description": "Show any web page or your own kiosk app in a tile: browse inside it, customisable back button, full screen, page rotation, idle return-home, and a JavaScript bridge so pages can use toasts, alerts, screens, weather and storage. Host your own apps on the dashboard.",
+      "author": "ninjawerk",
+      "repo": "ninjawerk/magicdash-web-app",
+      "version": "1.0.0",
+      "download": "https://github.com/ninjawerk/magicdash-web-app/releases/download/v1.0.0/web-app-1.0.0.zip",
+      "sha256": "65ecd6d8b3e25c7fa2af58b75a21a4136f8eeb0a4fd4bf4b4e919308ec0bebce",
+      "sdkVersion": 1,
+      "minHost": "0.2.0",
+      "tags": [
+        "web",
+        "iframe",
+        "kiosk",
+        "app",
+        "browser",
+        "signage"
+      ],
+      "reviewed": true,
+      "addedAt": "2026-09-18",
+      "updatedAt": "2026-09-18"
     }
   ]
 }
