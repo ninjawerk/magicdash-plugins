@@ -189,12 +189,12 @@
     {
       "id": "web-app",
       "name": "Web app",
-      "description": "Show any web page or your own kiosk app in a tile: browse inside it, customisable back button, full screen, page rotation, idle return-home, and a JavaScript bridge so pages can use toasts, alerts, screens, weather and storage. Host your own apps on the dashboard.",
+      "description": "Show any web page or your own kiosk app in a tile, or let it take over the whole screen: in-tile browsing, customisable back button, full screen, page rotation, idle return-home, and a JavaScript bridge (toasts, alerts, screens, weather, storage). Host your own apps on the dashboard.",
       "author": "ninjawerk",
       "repo": "ninjawerk/magicdash-web-app",
-      "version": "1.0.1",
-      "download": "https://github.com/ninjawerk/magicdash-web-app/releases/download/v1.0.1/web-app-1.0.1.zip",
-      "sha256": "65c550dec06d2cd1fded0a26742f902a1c6fb15a480bbcf36e3fed6732344873",
+      "version": "1.1.0",
+      "download": "https://github.com/ninjawerk/magicdash-web-app/releases/download/v1.1.0/web-app-1.1.0.zip",
+      "sha256": "85b89ab1fcd5524ae795a77962961505887f1507d623b90d7362f727e61256ce",
       "sdkVersion": 1,
       "minHost": "0.2.0",
       "tags": [
